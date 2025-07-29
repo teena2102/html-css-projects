@@ -1,23 +1,32 @@
-# HTML CSS 10 PRACTICE PROJECT
+# 🌟 10 HTML & CSS Mini Projects
 
-### Project that we are going to build in this complete practice course
+A bundle of creative front-end projects built using only **HTML** & **CSS**. Perfect for practice, portfolios, and fun! 🎨💻
 
-- Project 1 - Tribute Website
-- Project 2 - Job Application
-- Project 3 - Parallax Wesbite
-- Project 4 - Landing Page
-- Project 5 - Restaurant Website
-- Project 6 - Music Website
-- Project 7 - Youtube Clone
-- Project 8 - Javascript Documentation
-- Project 9 - Blog Wesbite
-- Project 10 - Portfolio Website
+---
 
-#### All Image Assets and Icons will Provided in Video Description
+## 📁 Projects List
 
-You Can Support me - For Free , Just By Sending me Tip From Brave Browser. ( <b>BAT Coin </b>)
+- 💖 Chen Zheyuan Parallax Page  
+- 📺 YouTube Home Clone  
+- 🎵 myTunes Landing Page  
+- 🏠 Real Estate Homepage  
+- 👨‍💻 Developer Portfolio  
+- 🍱 Food Delivery Grid  
+- 🌟 APJ Tribute Page  
+- 🎯 Hero Section Design  
+- 🧩 UI Card Layouts  
+- 📝 Simple Blog Homepage  
 
-[![image](https://raw.githubusercontent.com/anshuopinion/10-Practice-Project-Html-CSS/master/Readme%20File/howtosupport.png)](https://www.youtube.com/c/dosomecoding)
+---
 
-Visit Channel - [Do some coding](https://www.youtube.com/c/dosomecoding)
-›
+## 💡 Why This Repo?
+
+To master layout, styling, responsiveness & real-world UI designs. No JS, no frameworks — just **pure HTML & CSS magic**! 🪄
+
+---
+
+## 🔗 Connect
+
+ [📂 GitHub](https://github.com/teena2102)
+
+> ⭐ Star this repo if it helped you!
