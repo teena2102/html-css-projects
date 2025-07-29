@@ -1,4 +1,4 @@
-# 🌟 10 HTML & CSS Mini Projects
+# 🌟 Some HTML & CSS Mini Projects
 
 A bundle of creative front-end projects built using only **HTML** & **CSS**. Perfect for practice, portfolios, and fun! 🎨💻
 
