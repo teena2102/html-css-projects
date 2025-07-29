@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.container{
+  min-height: 100vh;
+  border: 10px solid #1d1e4c;
+  background-color: #e5e5fd;
+  }
+  .content{
+    max-width:900px;
+    margin:0 auto;
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: flex-end;
+    
+  }
+  .pic img{
+    width: 300px;
+    height: 320px;
+    border-radius: 50%;
+  }
+  
+  .heading h1{
+     font-size: 50px;
+     font-weight: bold;
+  }
+  .heading h2{
+    text-align: end;
+  }
+  .about h2{
+    margin-top:50px ;
+    margin-bottom: 20px;
+    font-size: 40px;
+    
+  }
+  .about p{
+    text-align: justify;
+  }
+ .bio {
+      margin: 50px 0;
+  }
+  .bio h3{
+    margin-top:50px ;
+    margin-bottom: 20px;
+  }
+  .bio ul{
+    margin-left: 50px;
+  }
+  
+  .bio li{
+    margin-bottom: 15px;
+  }
+  .footer{
+    text-align: end;
+    margin: 50px 0;
+  }
+    
+  

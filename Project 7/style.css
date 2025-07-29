@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+.container{
+  display: flex;
+}
+.horizontal-nav{
+  width: 100%;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.yt-logo img{
+  width: 150px;
+}
+.search-mic{
+  display: flex;
+  gap:30px;
+}
+.centre-nav{
+  display: flex;
+}
+.centre-nav input{
+  min-width: 600px;
+  padding: 10px 20px;
+  border: 0.5px solid #ccc;
+}
+.centre-nav button{
+  border: none;
+  padding: 10px 20px;
+}
+.voice-btn button{
+  border-radius: 50%;
+  border: none;
+  padding: 10px;
+}
+.four-icon{
+  display: flex;
+  gap: 30px;
+  margin-right: 50px;
+}
+
+.tags{
+  border-top: 1px solid #ccc;
+  display: flex;
+  padding: 10px 20px;
+  gap: 30px; 
+}
+.tag{
+  border-radius: 20px;
+  border: 1px solid rgb(22, 22, 22);
+  padding: 5px 15px;
+}
+.dark{
+  background-color:black ;
+  color: white;
+}
+.light{
+  background-color: rgb(238,238, 238);
+  
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+   
+  align-items: center; 
+}
+.side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.side p{
+  font-size: 12px;
+}
+.bars{
+  margin-top: 20px;
+}
+main{
+  background-color: rgb(240, 238, 238);
+  min-height: 100vh;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+}
+.card{
+  max-width: 320px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.card img{
+  max-width: 320px;
+}
+.card-text{
+  padding-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.content h2{
+  font-size: 20px;
+}
+.channel-name{
+  font-size: 16px;
+}
+.views-time{
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
+@media (max-width:786px){
+  .side p{
+    font-size: 6px;
+  }
+  .yt-logo img{
+    width: 75px;
+  }
+  .search-mic{
+    gap: 15px;
+  }
+  .centre-nav input{
+  min-width: 300px;
+  padding: 5px 10px;
+  
+}
+.centre-nav button{
+  padding: 5px 10px;
+}
+.four-icon{
+  gap: 15px;
+  margin-right: 25px;
+}
+.tags{
+  
+  padding: 5px 10px;
+  gap: 15px; 
+}
+.tag{
+  border-radius: 20px;
+  border: 1px solid rgb(22, 22, 22);
+  padding: 3px 8px;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(160px,1fr));
+}
+.card{
+  max-width: 160px;
+  padding: 5px;
+}
+.card img{
+  max-width: 160px;
+  height: auto;
+}
+.card-text{
+  padding-top: 5px;
+  gap: 10px;
+}
+.content{
+  gap: 3px;
+}
+.content h2{
+  font-size: 10px;
+}
+.channel-name{
+  font-size: 8px;
+}
+.views-time{
+  gap: 5px;
+  font-size: 7px;
+}
+}

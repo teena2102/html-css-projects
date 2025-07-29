@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); 
+ 
+:root {
+  --purple500: #281154;
+  --purple300: #270082;
+  --purple600: #1b0058;
+  --red600: #dc0000;
+  --body: #f9f6ff;
+  --max-width: 1200px;
+} 
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto",sans-serif;
+}
+.nav-container{
+  background-color: var(--purple300);
+  color: white;
+  position: sticky;
+  top: 0;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.nav-text{
+  font-size: 30px;
+  font-weight: 600;
+}
+.hero-section{
+  background-image: url(images/hero_image.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-text{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+.hero-text h1{
+  font-size: 100px;
+  font-weight: 700;
+  margin-top: 150px;
+}
+.hero-text h3{
+  font-size: 34px;
+}
+.music-section{
+  background-color: var(--purple500);
+  color: white;
+ 
+}
+.music-text{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+}
+.music-text h2{
+  font-size: 34px;
+}
+button{
+  padding: 10px 20px;
+  transition: 0.2s ease-in-out;
+  border: none;
+}
+button:hover{
+  transition: 0.2s ease-in-out;
+  transform: scale(0.3);
+  cursor: pointer;
+}
+.primary-btn{
+  background-color: var(--red600);
+  color: white;
+}
+.music-text img{
+  
+ position: relative;
+ top: 400px;
+ margin-top: -400px;
+
+}

@@ -1,0 +1,173 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+nav{
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 4px 5px 6px rgba(1,1,1,0.2);
+  margin-bottom: 30px;
+}
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 20px 100px; */
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.button{
+  font-size: 20px;
+  font-weight: 500;
+}
+.hero-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 60px;
+ 
+}
+.hero-text{
+  padding-top: 50px;
+}
+.hero-text span{
+  font-size: 20px;
+  background-color: #149439;
+  padding: 6px 10px;
+  color: white;
+}
+.hero-text h1{
+  font-size: 80px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+.hero-text p{
+  line-height: 1.5em;
+  padding-right: 150px;
+ 
+}
+.hero-text button{
+  background-color: #ffc036;
+  color: white;
+  padding: 15px 30px;
+  margin: 40px 0;
+  font-size: 20px;
+  border-color: transparent;
+}
+.section2{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  max-width:1100px ;
+  margin: 100px auto;
+  gap:20px;
+}
+.card{
+  display: flex;
+  gap: 10px;
+  box-shadow: 4px 5px 8px rgba(1,1,1,0.1);
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+.card:hover{
+  transform: scale(1.05);
+  transition: 0.2s ease-in-out;
+}
+.divider{
+  border: 1px solid #ccc;
+}
+.section3 button{
+  background-color: green;
+  color: white;
+  padding: 10px ;
+  border: transparent;
+  font-size: 14px;
+  margin: 20px; 
+}
+.section3 h2{
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  
+}
+.section3 {
+  display: flex;
+ 
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.grid{
+  display: grid;
+  gap: 10px;
+  grid-template-areas: 
+  "I1 I1 I2 I3"
+  "I1 I1 I2 I7"
+  "I4 I5 I6 I7";
+}
+.image-1{
+ grid-area: I1;
+}
+.image-2 {
+grid-area: I2;
+}
+.image-3 {
+grid-area: I3;
+}
+.image-4{
+grid-area: I4;
+}
+.image-5{
+grid-area: I5;
+}
+.image-6{
+grid-area: I6;
+}
+.image-7{
+grid-area: I7;
+}
+
+  
+footer{
+  background-color: rgb(218, 197, 157);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 120px;
+}
+h3{
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.new p{
+ line-height: 1.3em;
+}
+.media{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+@media (max-width:786px){
+  .hero-section{
+    max-width: 600px;
+    gap: 20px;
+  }
+  .hero-text h1{
+    font-size: 40px;
+  }
+  .section2{
+    max-width: 500px;
+  }
+  footer{
+    flex-direction: column;
+  }
+}

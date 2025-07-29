@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.hero-section{
+  background-image: url(images/developer.png);
+  min-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.heading{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 54px ;
+  color: white;
+}
+.bold{
+  font-size: 70px;
+  font-weight: 400;
+}
+.black-box{
+  background-color: black;
+  color: white;
+  padding: 70px;
+}
+.line{
+  font-size: 60px;
+  font-weight: 400;
+  text-align: center;
+ 
+}
+.big{
+  font-size: 110px;
+}
+.section2{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  max-width: 1100px;
+  margin: 40px auto;
+  gap: 20px;
+}
+.card{
+  max-width: 320px;
+  border-radius: 10px;
+  box-shadow: 3px 4px 5px rgba(1,1,1,0.3);
+  height: 400px;
+  transition: 0.3s ease-in-out;
+}
+.card:hover{
+  transform:scale(1.05);
+  transition: 0.3s ease-in-out;
+  box-shadow: 3px 4px 5px rgba(1, 1, 1, 0.4);
+}
+.card-centre{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.card-text{
+  padding: 20px;
+}
+.card-text h2{
+  margin-bottom: 10px;
+}
+.info{
+  display: flex;
+}
+.contact{
+ width: 50%;
+ background-color: #515603;
+}
+.about{
+ width: 50%;
+ background-color: #722300;
+}
+.common{
+  padding: 50px 100px;
+  color: white;
+}
+.common h2{
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+.black-box2{
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+.line2{
+  text-align: center;
+  font-size:20px ;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+}
+@media (max-width:786px){
+  .hero-section{
+    min-height: 50vh;
+  }
+  .heading{
+    padding: 10px ;
+    text-align: center;
+  }
+  .bold{
+    font-size: 40px;
+  }
+  .big{
+    font-size: 60px;
+  }
+  .line{
+    font-size: 30px;
+  }
+  .info{
+    flex-direction: column;
+  }
+  .contact,.about{
+    width: 100%;
+  }
+  .common h2{
+    font-size: 30px ;
+  }
+}
+

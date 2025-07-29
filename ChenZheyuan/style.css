@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+.pic1{
+  background-image: url(images/chen0.webp);
+  min-height: 100vh;
+    
+}
+.pic2{
+ background-image: url(images/chen00.jpg);
+ min-height: 400px;
+}
+.pic3{
+ background-image: url(images/chen000.jpg);
+ min-height: 400px;
+}
+.pic1, .pic2, .pic3{
+ background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+}
+.hero-text{
+  position: absolute;
+  top:40%;
+  color:white;
+  text-align: center;
+  width: 100%;
+}
+.hero-text span{
+  font-size: 70px;
+  font-weight: 700;
+  padding: 40px 60px;
+  background-color: black;
+}
+.light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+.box-text{
+  text-align: center;
+  padding: 60px;
+ 
+}
+.box-text h2{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.box-text p{
+  margin: 0 80px;
+}
+
